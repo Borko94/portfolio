@@ -1,0 +1,20 @@
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+
+@import "utilities/functions";
+@import "utilities/helpers";
+@import "utilities/mixins";
+@import "utilities/variables";
+
+// @import "components/blog-cards";
+
+@import "pages/home";
+@import "pages/portfolio";
+@import "pages/blog";
+@import "pages/contact";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/form";
+@import "layout/footer";
