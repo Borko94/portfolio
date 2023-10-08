@@ -1,6 +1,17 @@
+html {
+    box-sizing: border-box;
+    
+    // Default Font Size
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 50%;
+    }
+}
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 *,
@@ -9,15 +20,14 @@
     box-sizing: inherit;
 }
 
-html {
-    box-sizing: border-box;
-    
-    // Default Font Size
-    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
-
-    // @media only screen and (max-width: $bp-medium) {
-    //     font-size: 50%;
-    // }
 
 
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
 }

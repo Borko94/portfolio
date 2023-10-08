@@ -1,0 +1,21 @@
+.card {
+    display: block;
+    padding: $padding-default;
+    border: $border-thickness-default;
+    box-shadow: $box-shadow-default;
+
+    &__title {
+        font-size: $font-size-default;
+        padding-bottom: $padding-default;
+        font-weight: $font-bold;
+    }
+
+    &__body {
+        font-size: $font-size-default;
+        padding: $padding-default;
+    }
+
+    &__link {
+        text-decoration: underline;
+    }
+}
