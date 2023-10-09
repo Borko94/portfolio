@@ -11,15 +11,16 @@ $colors: (
     "sucess": $color-sucess,
     "danger": $color-danger,
     "warning": $color-warning,
-    "blue": #4a90e2,
+    "blue": #0000ff,
     "red": #d0021b,
-    "yellow": #f8e71c,
-    "orange": #f5a623,
+    "yellow": #ffff11,
+    "orange": #ff6600,
     "green": #7ed321,
-    "purple": #9013fe,
-    "gray": #9b9b9b,
+    "purple": #733380,
+    "gray": #a8a8a8,
     "black": #000000,
     "white": #ffffff,
+    "pink": #fe4164,
 );
 
 
@@ -38,6 +39,7 @@ $border-radius-default: 3px;
 $border-radius-medium: 8px;
 
 // Box Shadow
+$shadow-default: 0 1.5rem 4rem rgba(#000, .15);
 $box-shadow-default: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 $box-shadow-medium: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 $box-shadow-strong: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;

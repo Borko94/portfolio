@@ -131,10 +131,10 @@ $utilities: (
         'values': (
             "default": $border-radius-default,
             "none": 0,
-            // "xs": math.div($border-radius-default, 4),
-            // "sm": math.div($border-radius-default, 4),
-            // "lg": $border-radius-default * 2,
-            // "full": 50%,
+            "xs": math.div($border-radius-default, 4),
+            "sm": math.div($border-radius-default, 4),
+            "lg": $border-radius-default * 2,
+            "full": 50%,
         ),
     ),
     'display': (
@@ -156,6 +156,36 @@ $utilities: (
             "lg": $font-size-lg,
             "xl": $font-size-xl,
             "xxl": $font-size-xxl,
+        ),
+    ),
+    'justify-content': (
+        'prefix': 'justify',
+        'values': (
+            "center": center,
+            "start": start,
+            "end": end,
+            "normal": normal,
+            "right": right,
+            "left": left,
+            "flex-start": flex-start,
+            "flex-end": flex-end,
+            "space-between": space-between,
+            "space-around": space-around,
+            "space-evenly": space-evenly,
+            "stretch": stretch,
+        ),
+    ),
+    'align-items': (
+        'prefix': 'align',
+        'values': (
+            "normal": normal,
+            "stretch": stretch,
+            "center": center,
+            "start": start,
+            "end": end,
+            "flex-start": flex-start,
+            "flex-end": flex-end,
+
         ),
     ),
 );
