@@ -1,4 +1,8 @@
 // Typography
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&family=Quattrocento:wght@400;700&display=swap');
+
+$font-title: 'Quattrocento', serif;
+$font-paragraph: 'Quattrocento Sans', sans-serif;
 
 $font-primary: sans-serif;
 $font-secondary: sans-serif;
@@ -10,6 +14,7 @@ $font-size-xxl: $font-size-default * 3;
 $font-size-xl: $font-size-default * 2;
 $font-size-lg: $font-size-default * 1.5;
 $font-size-sm: $font-size-default * 0.75;
+$font-size-xs: $font-size-default * 0.25;
 
 .heading-primary {
 
@@ -21,32 +26,37 @@ $font-size-sm: $font-size-default * 0.75;
     
 }
 
-h1 {
-
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font-title;
+    font-weight: 400;
 }
 
-h2 {
+// h1 {
+
+// }
+
+// h2 {
     
-}
+// }
 
-h3 {
+// h3 {
     
-}
+// }
 
-h4 {
+// h4 {
     
-}
+// }
 
-h5 {
+// h5 {
     
-}
+// }
 
-h6 {
+// h6 {
     
-}
+// }
 
 p {
-
+    font-family: $font-paragraph;
 }
 
 a {

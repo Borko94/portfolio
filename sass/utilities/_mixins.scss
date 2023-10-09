@@ -3,7 +3,7 @@
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: $padding-default;
+    padding: $padding-default / 1.5 $padding-default;
     border-radius: $border-radius-default;
     background-color: $bg-color;
 }
