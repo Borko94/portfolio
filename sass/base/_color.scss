@@ -19,6 +19,23 @@
         }
     }
 
+    // Border 
+    .border-#{$key}{
+        border: .53rem solid $val;
+    }
+    .border-left-#{$key}{
+        border-left: .53rem solid $val;
+    }
+    .border-right-#{$key}{
+        border-right: .53rem solid $val;
+    }
+    .border-top-#{$key}{
+        border-top: .53rem solid $val;
+    }
+    .border-bottom-#{$key}{
+        border-bottom: .53rem solid $val;
+    }
+
     @for $i from 1 through 9 {
         .text-#{$key}-light-#{$i}{
             color: mix(white, $val, $i * 10%)

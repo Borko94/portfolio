@@ -1,0 +1,93 @@
+.admin {
+    &__container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 50px 1fr;
+        
+    }
+
+    &__nav {
+        background-color: #483c3c;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+
+    }
+
+    &__sidebar {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        background-color: #001111;
+
+        
+        padding: $padding-default;
+
+        &__menu {
+            position: relative;
+            // list-style: none;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            height: 100%;
+        }
+
+        &__item {
+            padding: 1rem;
+            margin: 8px 0;
+            border-radius: 8px;
+            transition: all .1s width .4s cubic-bezier(1,0,0,1) .2s,
+            background-color .1s;;
+            width: 100%;
+                        
+            &:hover i {
+                color: #fff;
+            }
+            
+        }
+        
+
+        &__link {
+            color: #fff;
+            font-size: 1.7rem;
+            
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+
+            span {
+                overflow: hidden;
+            }
+
+            i {
+                font-size: 1.2rem;
+                color: #ff000d;
+                
+            }
+
+            
+            
+            
+        }
+    }
+
+    &__main {
+        
+    }
+    
+    &__card {
+        border-radius: $border-radius-medium;
+        &-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
